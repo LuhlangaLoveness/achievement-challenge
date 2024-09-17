@@ -50,23 +50,34 @@
   background-color: whitesmoke;
   text-align: center;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 footer {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
-  padding: 40px 20px;
+  gap: 400px;
+  padding: 40px 40px 20px 50px;
   background-color: #333;
   border-top: #5585b5;
   color: whitesmoke;
+  text-decoration: none;
 }
 
 .footer div {
   flex: 1 1 200px;
 }
-.body {
-  color: plum;
-  line-height: 1.5px;
-}
 .about {
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+  color: whitesmoke;
+  list-style: none;
+}
+ul {
+  color: whitesmoke;
+}
+a {
+  color: whitesmoke;
+  text-decoration: none;
 }
