@@ -6,11 +6,17 @@
   background-color: #bbe4e9;
   position: relative;
 }
+.ripple-info {
+  display: block;
+  margin: auto;
+  padding: 0px 0px 20px 0px;
+  font-size: 55px;
+}
 .image {
   display: block;
   margin: auto;
   padding: 5px;
-  width: 10px;
+  width: 40%;
 }
 .image-style {
   width: 300px;
@@ -20,6 +26,7 @@
 .info-container {
   max-width: 550px;
   background: none;
+  padding: 0px 0px 20px 0px;
 }
 .about-button {
   display: block;
@@ -44,7 +51,7 @@
   border-bottom: 4px solid #5585b5;
 }
 .feature {
-  flex: 1 1 300px;
+  flex: 1 1 400px;
   margin: 20px;
   padding: 30px;
   background-color: whitesmoke;
@@ -58,7 +65,7 @@ footer {
   gap: 400px;
   padding: 40px 40px 20px 50px;
   background-color: #333;
-  border-top: #5585b5;
+  border-top: 4px solid #5585b5;
   color: whitesmoke;
   text-decoration: none;
 }
@@ -66,18 +73,68 @@ footer {
 .footer div {
   flex: 1 1 200px;
 }
-.about {
-  text-decoration: none;
-}
+
 li {
-  text-decoration: none;
-  color: whitesmoke;
   list-style: none;
 }
-ul {
-  color: whitesmoke;
-}
+
 a {
   color: whitesmoke;
   text-decoration: none;
+}
+.imagine-photos {
+  padding: 30px;
+  display: flex;
+  margin: 10px 0;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.photo1 {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  aspect-ratio: 2 / 1.6;
+}
+.photo2 {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  aspect-ratio: 2 / 1.9;
+}
+.photo3 {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  aspect-ratio: 2 / 1.9;
+}
+.photo4 {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  aspect-ratio: 2 / 1.9;
+}
+.photo5 {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  aspect-ratio: 2 / 1.6;
+}
+.photo6 {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  aspect-ratio: 2 / 1.6;
+}
+.photo7 {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  aspect-ratio: 2 / 1.6;
+}
+.photo8 {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  aspect-ratio: 2 / 1.6;
 }
