@@ -1,0 +1,35 @@
+.ripple {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background-color: #bbe4e9;
+  position: relative;
+}
+.image {
+  display: block;
+  margin: auto;
+  padding: 5px;
+  width: 10px;
+}
+.image-style {
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+.info-container {
+  max-width: 550px;
+  background: none;
+}
+.about-button {
+  display: block;
+  margin: 0px 0px 0px 0px;
+  padding: 8px;
+  border: 2px solid #53a8b6;
+  border-radius: 4px;
+  transition: all 200ms ease-in-out;
+  background: #53a8b6;
+  color: white;
+  font-size: bold;
+  cursor: pointer;
+}
