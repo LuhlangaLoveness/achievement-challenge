@@ -16,12 +16,13 @@
   display: block;
   margin: auto;
   padding: 5px;
-  width: 40%;
+  width: 10%;
 }
 .image-style {
   width: 300px;
   border: none;
-  border-radius: 5px;
+  border-radius: 200px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 .info-container {
   max-width: 550px;
@@ -90,6 +91,7 @@ footer {
 
 li {
   list-style: none;
+  margin-left: -40px;
 }
 
 a {
@@ -97,11 +99,12 @@ a {
   text-decoration: none;
 }
 .imagine-photos {
-  padding: 30px;
+  padding: 20px;
   margin: auto;
   display: grid;
   grid-gap: 5px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
 }
 .image-container {
   display: flex;
@@ -114,7 +117,6 @@ a {
   max-width: 100%;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  margin: 0px 10px 0px 0px;
 }
 .photo2 {
   display: block;
@@ -122,10 +124,11 @@ a {
   max-width: 100%;
   max-height: 100%;
   border-radius: 10px;
-
+  padding: 0px 10px0px 0px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 .photo3 {
+  display: block;
   max-width: 100%;
   max-height: 100%;
   border-radius: 10px;
@@ -133,6 +136,8 @@ a {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 .photo4 {
+  display: block;
+
   max-width: 100%;
   max-height: 100%;
   border-radius: 10px;
@@ -140,12 +145,14 @@ a {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 .photo5 {
+  display: block;
   max-width: 100%;
   max-height: 100%;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 .photo6 {
+  display: block;
   max-width: 100%;
   max-height: 100%;
   border-radius: 10px;
@@ -153,6 +160,7 @@ a {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 .photo7 {
+  display: block;
   max-width: 100%;
   max-height: 100%;
   border-radius: 10px;
@@ -160,6 +168,7 @@ a {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 .photo8 {
+  display: block;
   max-width: 100%;
   max-height: 100%;
   border-radius: 10px;
