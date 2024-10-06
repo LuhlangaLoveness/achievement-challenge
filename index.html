@@ -10,7 +10,212 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .ripple {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 50px 20px;
+        background-color: #bbe4e9;
+        position: relative;
+      }
+      .ripple-info {
+        display: block;
+        margin: auto;
+        padding: 0px 0px 20px 0px;
+        font-size: 55px;
+      }
+      .image {
+        display: block;
+        margin: auto;
+        padding: 5px;
+        width: 20%;
+      }
+      .image-style {
+        width: 300px;
+        border: none;
+        border-radius: 200px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      }
+      .info-container {
+        max-width: 550px;
+        background: none;
+        padding: 0px 0px 20px 0px;
+      }
+      .about-button {
+        display: block;
+        margin: 0px 0px 0px 0px;
+        padding: 8px;
+        border: 2px solid #53a8b6;
+        border-radius: 4px;
+        transition: all 200ms ease-in-out;
+        background: #53a8b6;
+        color: white;
+        font-size: bold;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .about-button:hover {
+        background: #e3f6f5;
+        color: black;
+      }
+      section {
+        display: block;
+      }
+      .gallary-features {
+        padding: 50px 20px;
+        background-color: #e3f6f5;
+        text-align: center;
+        border-top: 4px solid #5585b5;
+      }
+      .Overall {
+        font-size: 35px;
+      }
+
+      .features {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 50px 20px;
+        background-color: #e3f6f5;
+
+        border-bottom: 4px solid #5585b5;
+      }
+
+      .feature {
+        flex: 1 1 400px;
+        margin: 20px;
+        padding: 30px;
+        background-color: whitesmoke;
+        text-align: center;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+      }
+      .feature:hover {
+        transform: scale(1.15);
+        cursor: pointer;
+      }
+      footer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 400px;
+        padding: 40px 40px 20px 50px;
+        background-color: #333;
+        border-top: 4px solid #5585b5;
+        color: whitesmoke;
+        text-decoration: none;
+        transition: all 200ms ease-in-out;
+      }
+
+      .footer div {
+        flex: 1 1 200px;
+      }
+
+      li {
+        list-style: none;
+        margin-left: -40px;
+      }
+
+      a {
+        color: whitesmoke;
+        text-decoration: none;
+      }
+      .imagine-photos {
+        padding: 20px 10px 0px 30px;
+        display: grid;
+        grid-gap: 30px 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: space-between;
+        transition: all 200ms ease-in-out;
+      }
+      .image-container {
+        background: #e3f6f5;
+      }
+
+      .photo1 {
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: all 200ms ease-in-out;
+      }
+      .photo1:hover {
+        transform: scale(1.15);
+        cursor: pointer;
+      }
+      .photo2 {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: all 200ms ease-in-out;
+      }
+      .photo2:hover {
+        transform: scale(1.3);
+        cursor: pointer;
+      }
+      .photo3 {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: all 200ms ease-in-out;
+      }
+
+      .photo3:hover {
+        transform: scale(1.3);
+        cursor: pointer;
+      }
+      .photo4 {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: all 200ms ease-in-out;
+      }
+      .photo4:hover {
+        transform: scale(1.3);
+        cursor: pointer;
+      }
+      .photo5 {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 10px;
+        margin-bottom: 60px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: all 200ms ease-in-out;
+      }
+      .photo5:hover {
+        transform: scale(1.3);
+        cursor: pointer;
+      }
+      .photo6 {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: all 200ms ease-in-out;
+      }
+      .photo6:hover {
+        transform: scale(1.3);
+        cursor: pointer;
+      }
+      .gallary-images {
+        font-size: 35px;
+      }
+      .roboto-condensed-font {
+        font-family: "Roboto Condensed", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+      }
+      .footer-details {
+        transform: scale(1.3);
+      }
+      .about:hover {
+        transform: scale(1.3);
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -167,7 +372,6 @@
           </li>
         </ul>
       </div>
-      <script src="index.js"></script>
     </footer>
   </body>
 </html>
